@@ -27,5 +27,6 @@ if __name__ == "__main__":
         a = float(sys.argv[1])
         b = float(sys.argv[2])
     except:
-        print("error")
+        print("输入错误，需要两个参数 a and b")
+        sys.exit(1)
     calc_sample(a, b)

@@ -34,5 +34,6 @@ if __name__ == "__main__":
         b = float(sys.argv[2])
         h = float(sys.argv[3])
     except:
-        print("error")
+        print("输入错误，需要三个参数 m, b and h")
+        sys.exit(1)
     calc_sample(m, b, h)
